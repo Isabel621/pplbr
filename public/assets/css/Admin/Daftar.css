@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    background-color: #0077B6;
+}
+
+.logo{
+    height: 24px;
+}   
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #F6F6F6;
+    text-decoration: none;
+} 
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+} 
+
+nav ul li a{
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    color: #FFCB74;
+    font-weight: bold;
+}
+
+.nav2{
+    list-style: none;
+}
+.nav2 li{
+    display: inline-block;
+    padding: 0px 4px;
+}
+
+.t1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.t2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.pilihan{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.box1{
+    width:180px;
+    height:auto;
+    background:#e7e7e7;
+    border-radius: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 24px;
+    color: #000;
+    }
+    
+.box2{
+    width:180px;
+    height:auto;
+    background:#e7e7e7;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 24px;
+    color: #000;
+    }
+
+.kotak :hover{
+    background-color: #0077B6;
+    font-weight: bold;
+    color: #F6F6F6;
+}
+
+.t3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.t4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;    
+    color: #0077B6;
+    text-decoration: none;
+}
+
+.t3 :hover{
+    color: #0077B6;
+    font-weight: bold;
+}
