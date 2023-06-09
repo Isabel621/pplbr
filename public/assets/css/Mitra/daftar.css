@@ -51,133 +51,72 @@ nav ul li a:hover{
     padding: 0px 4px;
 }
 
-.kembali{
-    display: flex;
-    margin: 30px 80px 30px 80px;
+.t1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
 }
 
-.tombol:hover{
-    background-color: #FFCB74;
-}
-
-.tombol{
-	padding: 7px 14px;
-	border: none;
-	border-radius: 8px;
-	background-color: #e7e7e7;
-    color: #000000;
+.t2{
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
-    font-size: 10px;
-    text-align: center;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.fa-chevron-left:hover{
-    color: #000000;
-}
-
-.tTombol{
-    font-size: 12px;
-    padding-left: 4px;
-}
-
-.judul{
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.box{
-    background-color: #0077B6;
-    width: 700px;
-    margin: 0px auto;
-    margin-bottom: 80px;
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color: black;
-    border-radius: 10px;
-}
-
-.sub{
-    display: flex;
-    justify-content: space-between;
     text-align: center;
-    padding-top: 20px;
-    margin: 0 60px;
-    color: #F6F6F6;
-    font-size: 16px;
-    font-weight: 600;
-}
-.masuk{
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #FFCB74; 
+    padding-top: 90px;
 }
 
-.masuk:hover{
-    font-weight: bold;
-}
-
-
-.form{
-    margin: 15px 60px;
-}
-.form label{
-    color: #F6F6F6;
-    font-size: 12px;
-}
-
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #F6F6F6;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
-
-input[type=password], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #F6F6F6;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.alamat{
+.pilihan{
     display: flex;
-    gap: 20px; 
-}
-.rekening{
-    display: flex;
-    gap: 20px;
-}
-
-.submit{
-    display: flex;
+    margin: 50px auto;
     justify-content: center;
 }
 
-input[type=submit] {
-    background-color: #c2c2c2;
-    color: rgb(0, 0, 0);
-    width: 100px;
-    padding: 10px 20px;
-    margin: 30px 0 50px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-  }
+.box1{
+    width:180px;
+    height:auto;
+    background:#e7e7e7;
+    border-radius: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 24px;
+    color: #000;
+    }
+    
+.box2{
+    width:180px;
+    height:auto;
+    background:#e7e7e7;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 24px;
+    color: #000;
+    }
 
-input[type=submit]:hover{
-    background-color: #FFCB74;
-    color: rgb(0, 0, 0);
+.kotak :hover{
+    background-color: #0077B6;
+    font-weight: bold;
+    color: #F6F6F6;
+}
+
+.t3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.t4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;    
+    color: #0077B6;
+    text-decoration: none;
+}
+
+.t3 :hover{
+    color: #0077B6;
+    font-weight: bold;
 }

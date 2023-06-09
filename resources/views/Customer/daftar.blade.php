@@ -1,91 +1,65 @@
-@extends('layouts.customer')
-@section('page-title', 'Daftar Customer')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <link rel="stylesheet" href="../CSS/Daftar.css">
+</head>
+<body>
+    <header class="head">
+        <a href="">
+            <img src="/Gambar/logo.png" height="60px" alt="logo" class="logo">
+        </a>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="../HTML/ProyekDanaCustomer.html">Proyek dana</a></li>
+                <li><a href="../HTML/ProyekDanaCustomer.html">Sewa lahan</a></li>
+                <li><a href="#">Capaian</a></li>
+                <li><a href="#">Edukasi</a></li>
+            </ul>
+        </nav>
+        <nav class="nav2">
+            <ul>
+                <li><a href="../HTML/Login.html">Masuk</a></li>
+                <li>|</li>
+                <li><a href="../HTML/Daftar.html">Daftar</a></li>
+            </ul>
+        </nav>
+    </header>
 
-@push('css')
-    <link rel="stylesheet" href="{{ asset('assets/css/Customer/daftar.css') }}">
-@endpush
+    <div class="t1">
+        Daftarkan akun anda,<br>Sebagai Customer atau sebagai Mitra.
+    </div>
 
-@section('content')
-    <div class="kembali">
-        <a href="{{ route('dashboard') }}">
-            <button class="tombol">
-                <i class="fa fa-chevron-left fa-lg"></i>
-                <span class="tTombol">Kembali</span>
-            </button>
+    <div class="t2">
+        Pilih jenis akun
+    </div>
+
+    <div class="pilihan">
+        <a href="../HTML/DaftarCustomer.html" class="kotak">
+            <div class="box1">
+                <img src="/Gambar/salary.png" height="120px" alt="" class="pic">
+                <div>Customer</div>
+            </div>
+        </a>
+        <a href="DaftarMitra.html" class="kotak">
+            <div class="box2">
+                <img src="/Gambar/fisherman.png" height="120px" alt="" class="pic">
+                <div>Mitra</div>
+            </div>
         </a>
     </div>
 
-    <div class="judul">
-        <p>Daftarkan akun anda,</p>
-        <p>Untuk memulai proyek dana dan sewa lahan</p>
+    <div class="t3">
+        Sudah memiliki akun? <a href="../HTML/Login.html" class="t4">Masuk sekarang</a>
     </div>
 
-    <div class="box">
-        <div class="sub">
-            <p>Daftar Customer</p>
-            <p><a href="{{ route('login') }}" class="masuk">Masuk</a></p>
-        </div>
 
-        <form action="{{ route('customer.daftar.store') }}" method="POST">
-            @csrf
-            <div class="form">
-                <label for="">Nama Lengkap</label><br>
-                <input type="text" placeholder="Nama Lengkap..." name="nama_lengkap">
 
-                <label for="">Nama Pengguna</label><br>
-                <input type="text" placeholder="Nama Pengguna..." name="nama_pengguna">
 
-                <label for="">Email</label><br>
-                <input type="text" placeholder="Email..." name="email">
 
-                <label for="">Nomor Telepon</label><br>
-                <input type="text" placeholder="Nomor Telepon..." name="nomor_telepon">
-
-                <label for="">Nomor Induk Kependudukan (NIK)</label><br>
-                <input type="text" placeholder="Nomor Induk Kependudukan (NIK)..." name="nik">
-
-                <label for="">Alamat</label><br>
-                <input type="text" placeholder="Alamat..." name="alamat">
-
-                <div class="alamat">
-                    <div>
-                        <label for="">Kecamatan</label><br>
-                        <input type="text" placeholder="Kecamatan..." name="kecamatan">
-                    </div>
-                    <div>
-                        <label for="">Kota</label><br>
-                        <input type="text" placeholder="Kota..." name="kota">
-                    </div>
-                    <div>
-                        <label for="">Provinsi</label><br>
-                        <input type="text" placeholder="Provinsi..." name="provinsi">
-                    </div>
-                </div>
-
-                <div class="rekening">
-                    <div>
-                        <label for="">Nomor Rekening</label><br>
-                        <input type="text" placeholder="Nomor Rekening..." name="nomor_rekening">
-                    </div>
-                    <div>
-                        <label for="">Nama Bank</label><br>
-                        <input type="text" placeholder="Nama Bank..." name="nama_bank">
-                    </div>
-                </div>
-
-                <label for="">Kata Sandi</label><br>
-                <input type="password" placeholder="Kata Sandi..." name="password">
-
-                <label for="">Konfirmasi Kata Sandi</label><br>
-                <input type="password" placeholder="Konfirmasi Kata Sandi..." name="password_confirmation">
-
-                <div class="submit">
-                    <input type="submit" value="Daftar">
-                </div>
-
-            </div>
-        </form>
-
-    </div>
-
-@endsection
+</body>
+</html>
